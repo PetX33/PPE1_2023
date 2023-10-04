@@ -12,4 +12,4 @@ lignes de commande utilisées sont disponibles dans le dossier exercices '27_09-
 différentes commandes git, pour actualiser notre dépot et récupérer les 
 mise à jour des dépots de tiers.
 
-#Seance 3 (04/10)
+#Seance3
