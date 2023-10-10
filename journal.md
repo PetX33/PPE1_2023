@@ -18,6 +18,7 @@ mise à jour des dépots de tiers.
 notamment, git reset pour revenir en arrière avant qu'on ai push et 
 git revert pour  revenir en arrière après qu'on ai push. Parmi le git reset, il y a 
 la version douce et la version dure.
+
 Doux : 
 git reset HEAD~1 : va revenir au commit précédent et annuler la mise en place
 git reset --soft HEAD~1 : va revenir au commit précédent et ne vas pas annuler 
@@ -26,3 +27,7 @@ la mise en place.
 Dure :
 git reset --hard HEAD~1 : va revenir à la version précédente et supprimer tout 
 les changements.
+
+
+Ceci sera à copier dans le journal.md
+
