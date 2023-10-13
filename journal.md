@@ -29,5 +29,11 @@ git reset --hard HEAD~1 : va revenir à la version précédente et supprimer tou
 les changements.
 
 
-Ceci sera à copier dans le journal.md
+#Séance4 (11/10): 
+- Nous avons fait la correction de l'exercice git. Nous 
+avons également vu l'utilisation des pipelines afin d'entrer plusieurs 
+commande à la suite sur le terminal. également comment rediriger vers ou 
+depuis des fichiers. Finalement nous avons écris notre premier scipt shell et vu 
+l'utilisation de variables dans le script et des arguments à l'appel du 
+script.
 
