@@ -37,3 +37,8 @@ depuis des fichiers. Finalement nous avons écris notre premier scipt shell et v
 l'utilisation de variables dans le script et des arguments à l'appel du 
 script.
 
+#Séance5 (18/10):
+- Nous avons vu l'utilisation des instructions conditionnelles, ainsi que les boucles while et for. 
+- Afin de nous aider pour le projet, nous avons découvert l'utilisation de lynx, un navigateur sur le terminal, qui permet de récupérer le texte brut des sites notamment, ainsi que la commande curl, qui permet de voir si un site est OK ou s'il y a des erreurs, de savoir l'url exact, l'encodage du texte dans certains cas, etc.
+- PROJET (18/10):
+• Nous sommes dans la réflexion de savoir quels mots choisir pour le projet, nous avons déjà une sélection de plusieurs (education, désinformation, violence...) mais nous ne nous sommes pas mis d'accord. Concernant le choix des langues, celui-ci a été plus rapide, Français, Chinois et Anglais, mais nous ne nous sommes pas encore réparti, qui travaillera sur quelle langue.
