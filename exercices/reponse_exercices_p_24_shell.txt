@@ -4,7 +4,7 @@ Locations en 2017
     2466
 Locations en 2018
     3110
-Locations la plus souvent cité pour le mois de février
+Locations les plus souvent cités pour le mois de février
   64 France
   23 Syrie
   17 États-Unis
@@ -68,16 +68,6 @@ Classement des locations pour l'année 2018
   22 A8
   21 Strasbourg
   21 A62
-  21 A50
-  20 A61
-  20 A20
-  19 Élysée
-  18 place de la République
-  18 Saint-Lazare
-  18 Japon
-  18 A52
-  18 A51
-  18 A11
 Annotations les plus fréquentes pour le mois de février
   64 France
   27 François Fillon
