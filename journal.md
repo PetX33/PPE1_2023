@@ -1,4 +1,4 @@
-Journal de Perrine
+#Journal de Perrine
 
 #Séance 2 (27/09) 
 
@@ -30,15 +30,13 @@ les changements.
 
 
 #Séance4 (11/10): 
-- Nous avons fait la correction de l'exercice git. Nous 
-avons également vu l'utilisation des pipelines afin d'entrer plusieurs 
-commande à la suite sur le terminal. également comment rediriger vers ou 
-depuis des fichiers. Finalement nous avons écris notre premier scipt shell et vu 
-l'utilisation de variables dans le script et des arguments à l'appel du 
-script.
+- Nous avons fait la correction de l'exercice git. Nous avons également vu l'utilisation des pipelines afin d'entrer plusieurs commande à la suite sur le terminal. également comment rediriger vers ou depuis des fichiers. Finalement nous avons écris notre premier scipt shell et vu l'utilisation de variables dans le script et des arguments à l'appel du script.
 
-#Séance5 (18/10):
+#Séance5 (18/10): 
 - Nous avons vu l'utilisation des instructions conditionnelles, ainsi que les boucles while et for. 
-- Afin de nous aider pour le projet, nous avons découvert l'utilisation de lynx, un navigateur sur le terminal, qui permet de récupérer le texte brut des sites notamment, ainsi que la commande curl, qui permet de voir si un site est OK ou s'il y a des erreurs, de savoir l'url exact, l'encodage du texte dans certains cas, etc.
-- PROJET (18/10):
-• Nous sommes dans la réflexion de savoir quels mots choisir pour le projet, nous avons déjà une sélection de plusieurs (education, désinformation, violence...) mais nous ne nous sommes pas mis d'accord. Concernant le choix des langues, celui-ci a été plus rapide, Français, Chinois et Anglais, mais nous ne nous sommes pas encore réparti, qui travaillera sur quelle langue.
+- Afin de nous aider pour le projet, nous avons découvert l'utilisation de lynx, un navigateur sur le terminal, qui permet de récupérer le texte brut des sites 
+notamment, ainsi que la commande curl, qui permet de voir si un site est OK ou s'il y a des erreurs, de savoir l'url exact, l'encodage du texte dans certains cas, etc. 
+- PROJET (18/10): 
+• Nous sommes dans la réflexion de savoir quels mots choisir pour le projet, nous avons déjà une sélection de plusieurs (education, désinformation, violence...) mais nous ne nous sommes pas mis d'accord. Concernant le choix des langues, celui-ci a été plus rapide, Français, Chinois et Anglais, mais nous ne nous sommes pas encore réparti, qui travaillera sur quelle langue. 
+- PROJET (20/10): 
+• Nous nous sommes finalement mis d'accord pour choisir le mot "désinformation" qui est il nous semble plutôt d'actualité et attire notre curiosité sur son utilisation en Chine et en France ou dans les pays anglophones (reste à voir quel pays anglophone). 
