@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <type_entite>"
+  exit 1
+fi
+
 annees=("2016" "2017" "2018")
 
 type_entite="$1"
