@@ -39,4 +39,10 @@ notamment, ainsi que la commande curl, qui permet de voir si un site est OK ou s
 - PROJET (18/10): 
 • Nous sommes dans la réflexion de savoir quels mots choisir pour le projet, nous avons déjà une sélection de plusieurs (education, désinformation, violence...) mais nous ne nous sommes pas mis d'accord. Concernant le choix des langues, celui-ci a été plus rapide, Français, Chinois et Anglais, mais nous ne nous sommes pas encore réparti, qui travaillera sur quelle langue. 
 - PROJET (20/10): 
-• Nous nous sommes finalement mis d'accord pour choisir le mot "désinformation" qui est il nous semble plutôt d'actualité et attire notre curiosité sur son utilisation en Chine et en France ou dans les pays anglophones (reste à voir quel pays anglophone). 
+• Nous nous sommes finalement mis d'accord pour choisir le mot "désinformation" qui est il nous semble plutôt d'actualité et attire notre curiosité sur son utilisation en Chine et en France ou dans les pays anglophones (reste à voir quel pays anglophone).
+
+#Séancee6 (25/10):
+- Nous avons commencé à travailler sur le projet, en essayant de récupérer les urls situé dans un fichier txt, ainsi que leur code HTTP, leur encodage avec la commande curl et en utilisant des expressions régulière et la commande cut pour récupérer seulement ce qui nous interesse, pour au final les mettre dans un fichier au format HTML.
+- PROJET (29/10)
+J'ai commencé à récupérer des urls de site de press américaine, puisque je m'occupe de la langue anglaise. Nous avons décidé de nous concentré sur la presse car c'est un format plutot officiel et qui nous semble plus approprié pour le mot sur lequel nous avons décidé de travailler. J'ai pu tester le programme du miniprojet pour voir si les pages avec un code HTTP de 200 ou non, et également voir celles qui avait un encodage ou non.
+
