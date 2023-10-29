@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ $# -ne 1 ];
+if [ $# -ne 2 ];
 then
 	echo "Un argument attendu exactement"
 	exit
@@ -14,16 +14,33 @@ else
 	exit
 fi
 
-fichier=$1
+fichier_urls=$1
+fichier_tableau=$2
+
+basename=$(basename -s .txt $fichier_urls)
 lineno=1
 
-while read -r line;
+echo 	"<html>
+	<head>
+		<meta charset=\"utf-8\" />
+		<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css\">
+		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+		<title>Tableau des URLS</title>
+	</head>
+	<body>
+		<h1 class=\"title\">Tableau des URLs $basename</h1>
+		<table class=\"table is-bordered\">
+			<thead><tr><th>ligne</th><th>code HTTP</th><th>URL</th><th>encodage</th></thead>" > "../tableaux/$fichier_tableau"
+
+
+while read -r URL;
 do
+	echo -e "\tURL : $URL";
 	# réponse HTTP
-	code=$(curl -ILs $line | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)
+	code=$(curl -ILs $URL | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)
 	
 	# récupération de l'encodage
-	charset=$(curl -Ls "$line" | grep -Eo "charset=.+" | cut -d'"' -f2)
+	charset=$(curl -Ls $URL | grep -Eo "charset=.+" | cut -d'"' -f2)
 
 	 # Déterminer le résultat en fonction du code de réponse HTTP
 	if [ "$code" -eq 200 ]; then
@@ -39,8 +56,8 @@ do
 		echo -e "\tencodage : $charset";
 	fi
 
-	# le -e reste affiché dans le fichier de sortie
-	echo -e "${lineno}\t${code}\t${result}\t${line}\t${charset}" >> ../tableaux/tableau-fr.html
+	
+	echo "			<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td></tr>" >> "../tableaux/$fichier_tableau"
 
 	((lineno++));
-done < "$fichier"
+done < "$fichier_urls"
