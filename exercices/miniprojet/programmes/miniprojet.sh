@@ -2,7 +2,7 @@
 
 if [ $# -ne 2 ];
 then
-	echo "Un argument attendu exactement"
+	echo "Deux arguments attendu exactement"
 	exit
 fi
 
