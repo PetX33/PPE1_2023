@@ -37,10 +37,10 @@ while read -r URL;
 do
 	echo -e "\tURL : $URL";
 	# réponse HTTP
-	code=$(curl -ILs $URL | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)
+	code=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
 	
 	# récupération de l'encodage
-	charset=$(curl -Ls $URL | grep -Eo "charset=.+" | cut -d'"' -f2)
+	charset=$(curl -s -I -L -w "%{content_type}" $URL | ggrep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
 
 	 # Déterminer le résultat en fonction du code de réponse HTTP
 	if [ "$code" -eq 200 ]; then
