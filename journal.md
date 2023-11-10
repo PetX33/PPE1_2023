@@ -46,3 +46,6 @@ notamment, ainsi que la commande curl, qui permet de voir si un site est OK ou s
 - PROJET (29/10)
 J'ai commencé à récupérer des urls de site de press américaine, puisque je m'occupe de la langue anglaise. Nous avons décidé de nous concentré sur la presse car c'est un format plutot officiel et qui nous semble plus approprié pour le mot sur lequel nous avons décidé de travailler. J'ai pu tester le programme du miniprojet pour voir si les pages avec un code HTTP de 200 ou non, et également voir celles qui avait un encodage ou non.
 
+#Séance7 (8/11):
+- Pendant le cours nous fait la correction du miniprojet (recupérer code HTTP et encodage) ainsi que l'utilisation des balises html.
+
