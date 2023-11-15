@@ -20,17 +20,19 @@ fichier_tableau=$2
 basename=$(basename -s .txt $fichier_urls)
 lineno=1
 
-echo 	"<html>
+echo "<html>
 	<head>
-		<meta charset=\"utf-8\" />
+		<meta charset=\"utf-8\"/>
 		<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css\">
 		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 		<title>Tableau des URLS</title>
 	</head>
-	<body>
-		<h1 class=\"title\">Tableau des URLs $basename</h1>
+	<body class="has-navbar-fixed-top">
+		<nav class=\"navbar is-light is-fixed-top\"><div class=\"navbar-menu\"><div class=\"navbar-start\"><div class=\"navbar-item has-dropdown is-hoverable\"><a class=\"navbar-item\" href=\"./index.html#introduction\">Introduction</a></div><div class=\"navbar-item has-dropdown is-hoverable\"><a class=\"navbar-item\" href=\"../index.html#analyse\">Analyse</a></div><div class=\"navbar-item has-dropdown is-hoverable\"><a class=\"navbar-item\" href=\"../scripts.html\">Scripts</a></div><div class=\"navbar-item has-dropdown is-hoverable\"><a class=\"navbar-item\">Tableaux</a><div class=\"navbar-dropdown\"><a class=\"navbar-item\" href=\"tableau_fr.html\">Français</a><a class=\"navbar-item\" href=\"tableau_en.html\">Anglais</a><a class=\"navbar-item\" href=\"tableau_zh.html\">Chinois</a></div></div></div><div class=\"navbar-end\"><div class=\"navbar-item has-dropdown is-hoverable\"><a class=\"navbar-item\" href=\"../index.html#aPropos\">À propos</a></div><div class=\"navbar-item\"><a href=\"https://github.com/PetX33/Desinformation-Projet\"><img src=\"../images/github_logo.png\" alt=\"Github\"></a></div></div></div></nav>" > "$fichier_tableau"
+
+echo "		<h1 class=\"title\">Tableau des URLs $basename</h1>
 		<table class=\"table is-bordered\">
-			<thead><tr><th>ligne</th><th>code HTTP</th><th>URL</th><th>encodage</th></thead>" > "../tableaux/$fichier_tableau"
+			<thead><tr><th>ligne</th><th>code HTTP</th><th>URL</th><th>encodage</th></thead>" >> "$fichier_tableau"
 
 
 while read -r URL;
@@ -57,7 +59,11 @@ do
 	fi
 
 	
-	echo "			<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td></tr>" >> "../tableaux/$fichier_tableau"
+	echo "			<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td></tr>" >> "$fichier_tableau"
 
 	((lineno++));
 done < "$fichier_urls"
+
+echo "		</table>
+	</body>
+</html>" >> "$fichier_tableau"
