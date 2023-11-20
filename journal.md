@@ -49,3 +49,10 @@ J'ai commencé à récupérer des urls de site de press américaine, puisque je 
 #Séance7 (8/11):
 - Pendant le cours nous fait la correction du miniprojet (recupérer code HTTP et encodage) ainsi que l'utilisation des balises html.
 
+#Séance8 (15/11):
+- Nous avons vu comment écrire une page HTML pour commencer à mettre en forme notre site web, qui permettra de visualiser nos résultats. Nous avons également fait la correction du miniprojet (écrire sous forme de tableau HTML les résultats). Je n'ai pas rencontrer de difficultés particulière puisqu'à l'Inalco nous avons déjà un cours de langage web.
+-PROJET (15/11)
+Nous avons commencer à mettre des fichiers sur notre git commun, tel que les fichiers urls pour le français et l'anglais, les tableaux d'urls pour ces deux langues et la page de présentation (début de page de présentation) pour notre site. J'espère qu'on pourra mettre les fichiers concernant le chinois dans la semaine.
+#Séance8 (15/11):
+- Nous avons vu comment écrire une page HTML pour commencer à mettre en forme notre site web, qui permettra de visualiser nos résultats. Nous avons également fait la correction du miniprojet (écrire sous forme de tableau HTML les résultats). Je n'ai pas rencontrer de difficultés particulière puisqu'à l'Inalco nous avons déjà un cours de langage web.
+
