@@ -56,3 +56,6 @@ Nous avons commencer à mettre des fichiers sur notre git commun, tel que les fi
 #Séance8 (15/11):
 - Nous avons vu comment écrire une page HTML pour commencer à mettre en forme notre site web, qui permettra de visualiser nos résultats. Nous avons également fait la correction du miniprojet (écrire sous forme de tableau HTML les résultats). Je n'ai pas rencontrer de difficultés particulière puisqu'à l'Inalco nous avons déjà un cours de langage web.
 
+#Séance9 (22/11):
+- Nous avons commencé à travailler sur notre projet de groupe, c'est-à-dire à aspirer les pages HTML, le texte de ces pages, à compter le nombre d'occurrence, extraire le contexte, et créer le concordancier. Pour cela on a modifier le programme du miniprojet en y ajoutant les différentes parties. On a décidé de séparer le programme traitement_url.sh en deux, une partie pour le chinois et l'autre pour l'anglais et le français. On a également fait un script pour le concordancier, car il fallait créer une autre page HTML et on trouvait cela plus simple pour séparer la partie HTML du code. 
+On a rencontré un petit problème pour recupérer certaines pages, je pense à cause de l'adblock, ça ne récupérer rien, on a donc du changer ces liens.
